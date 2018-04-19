@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Billie Harley';
+    src: url('https://github.com/ssteiert/jubilant-spoon/blob/master/BillieHarley.otf');
+    src: url('https://github.com/ssteiert/jubilant-spoon/blob/master/BillieHarley.otf') format('embedded-opentype'),
+}
+
+body {
+  overflow: hidden;
+  /* background-image: url("https://github.com/ssteiert/jubilant-spoon/blob/master/pink_rice.png?raw=true")*/
+  background-color: #F1BBBA;
+}
+
+p {
+  font-family: 'Billie Harley';
+  font-size: 15vh;
+}
+
+p img {
+    height: 1.25em;
+    width: auto;
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+}
+
+.container p {
+  position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+input {
+  border:none;
+  border-bottom: 1px solid black;
+  text-align: right;
+  font-size: 15vh;
+  font-family: serif;
+    width: 20vw;
+  background: transparent;  
+}
+input[type=text]:focus {
+      outline: none;
+}
