@@ -4,44 +4,56 @@
     src: url('https://github.com/ssteiert/jubilant-spoon/blob/master/BillieHarley.otf') format('embedded-opentype'),
 }
 
+@import url('https://fonts.googleapis.com/css?family=Arimo');
+
 body {
   overflow: hidden;
-  /* background-image: url("https://github.com/ssteiert/jubilant-spoon/blob/master/pink_rice.png?raw=true")*/
   background-color: #F1BBBA;
 }
 
+
 p {
-  font-family: 'Billie Harley';
-  font-size: 15vh;
+  line-height: 1.25;
+  font-family: "Arimo";
+  font-size: 14pt;
 }
 
-p img {
-    height: 1.25em;
-    width: auto;
+a {
+  text-decoration: none;
+  color: black;
+  
 }
 
-.container {
-  position: relative;
-  height: 100vh;
+a:hover {
+  opacity: .7;
 }
 
-.container p {
-  position: absolute;
-    top: 40%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
+a:visited {
+  color: #c67573;
 }
 
-input {
-  border:none;
-  border-bottom: 1px solid black;
+.intro {
   text-align: right;
-  font-size: 15vh;
-  font-family: serif;
-    width: 20vw;
-  background: transparent;  
+  margin: 6% 12% 0% 0%;
+ }
+
+#heart {
+  width: 1.5em;
 }
-input[type=text]:focus {
-      outline: none;
+
+#name {
+  font-family: 'Billie Harley';
+  line-height: .1;
+  font-size: 6.25vw;
+}
+
+
+
+
+.image {
+  width: 50%;
+  position: absolute;
+  bottom: 0;
+  margin: 0% 0% 2% 8%;
+    z-index:-3
 }
