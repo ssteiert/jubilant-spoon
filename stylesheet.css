@@ -1,59 +1,408 @@
-@font-face {
-    font-family: 'Billie Harley';
-    src: url('https://github.com/ssteiert/jubilant-spoon/blob/master/BillieHarley.otf');
-    src: url('https://github.com/ssteiert/jubilant-spoon/blob/master/BillieHarley.otf') format('embedded-opentype'),
-}
-
-@import url('https://fonts.googleapis.com/css?family=Arimo');
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Orelega+One&family=Tangerine:wght@700&display=swap');
 
 body {
-  overflow: hidden;
-  background-color: #F1BBBA;
+  background-color: #b7b3b4 !important;
+  padding: 10px;
+  font-family: "Lora" !important;
 }
 
+.spacer {
+  height: 300px;
+}
 
-p {
-  line-height: 1.25;
-  font-family: "Arimo";
-  font-size: 14pt;
+.spacer-small {
+  height: 150px;
+}
+
+.highlighted {
+  background-color: rgba(205, 106, 147, .25);
+  font-size: 25px;
+}
+
+.highlighted:hover {
+  background-color: rgba(205, 106, 147, .4);
+}
+
+.fa-lg:hover {
+  color: rgba(205, 106, 147, .7);
+}
+
+.content {
+  height: 100vh;
+  display: block;
+}
+
+.button {
+   font-size: 15px;
+padding: 15px;
+  border-radius: 5%;
+  box-shadow: 3px 3px 20px gray;
+  background-color: rgba(205, 106, 147, .4);
+  text-transform: uppercase;
+}
+
+.button:hover {
+  box-shadow: 5px 5px 10px gray;
+}
+
+.button1 {
+   font-size: 15px;
+padding: 10px;
+  border-radius: 5%;
+  background-color: rgba(205, 106, 147, .4);
+  text-transform: uppercase;
+}
+
+.button:hover {
+  box-shadow: 5px 5px 10px gray;
 }
 
 a {
+  color: black !important;
   text-decoration: none;
+}
+a:hover {
   color: black;
+  text-decoration: none !important;
+}
+
+
+/* Design Portfolio */
+.modal-body {
+  margin: 1.5em;
+}
+
+.portfolio-item {
+    opacity: .9;
+}
+
+.portfolio-item:hover {
+  opacity: 1;
+}
+
+.portfolio-image {
+  width: 100%;
   
 }
 
-a:hover {
-  opacity: .7;
+/*Packery Grid*/
+.grid {
+  max-width: 1200px;
+}
+  
+.grid-item { width: 400px;
+  height: 200px;
+overflow: hidden; 
+position: relative;
 }
 
-a:visited {
-  color: #c67573;
+.grid-item--wide { width: 600px;
+  height: 200px;
+margin: 0 auto;
+overflow: hidden; 
+position: relative;
 }
 
-.intro {
-  text-align: right;
-  margin: 6% 12% 0% 0%;
- }
-
-#heart {
-  width: 1.5em;
+.grid-item--tall {
+  width: 200px;
+  height: 400px;
+  margin: 0 auto;
+overflow: hidden; 
+position: relative;
 }
 
-#name {
-  font-family: 'Billie Harley';
-  line-height: .1;
-  font-size: 6.25vw;
+.grid-item--square {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+overflow: hidden; 
+position: relative;
 }
 
+.portfolio-item {
+ width: 100%;
+    position:absolute;
+  vertical-align: center;
+  margin-left: 50%;
+transform: translateX(-50%);
+}
 
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
 
-
-.image {
-  width: 50%;
+.footer-moto {
+  left: 1%;
+  bottom: 1px;
   position: absolute;
-  bottom: 0;
-  margin: 0% 0% 2% 8%;
-    z-index:-3
+  /* Safari 4.0 - 8.0 */
+  -webkit-animation-name: moto;
+  -webkit-animation-duration: 20s;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-direction: forwards;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-play-state: paused; 
+  /* Standard syntax */
+  animation-name: moto;
+  animation-duration: 20s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: forwards;
+  animation-fill-mode: forwards;
+  animation-play-state: paused; 
+  
+}
+.footer-moto:hover {
+  -webkit-animation-play-state: running;
+  animation-play-state: running;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes moto {
+  from {left: 1%;}
+  to {left: 85%;}
+}
+
+/* Standard syntax */
+@keyframes moto {
+  from {left: 1%;}
+  to {left: 85%;}
+}
+
+
+@media only screen and (max-width: 449px) {
+  #portfolio {
+    display: none;
+  }
+  
+  .grid {
+  max-width: 300px;
+}
+  
+  .grid-item { width: 150px;
+  height: 150px;
+overflow: hidden; 
+position: relative;
+}
+
+.grid-item--wide { width: 150px;
+  height: 150px;
+margin: 0 auto;
+overflow: hidden; 
+position: relative;
+}
+
+.grid-item--tall {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+overflow: hidden; 
+position: relative;
+}
+
+.grid-item--square {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+overflow: hidden; 
+position: relative;
+}
+  
+  
+  body {
+    font-size: .85em !important;
+    margin: 70px 20px 0px 20px !important;
+  } 
+  .highlighted {
+    font-size: 1em !important;
+  } 
+  
+}
+
+@media only screen and (min-width: 450px) {
+  .grid {
+  max-width: 450px;
+}
+  
+  .grid-item { width: 150px;
+  height: 150px;
+overflow: hidden; 
+position: relative;
+}
+
+.grid-item--wide { width: 300px;
+  height: 150px;
+margin: 0 auto;
+overflow: hidden; 
+position: relative;
+}
+
+.grid-item--tall {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+overflow: hidden; 
+position: relative;
+}
+
+.grid-item--square {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+overflow: hidden; 
+position: relative;
+}
+  
+  .highlighted {
+    font-size: 1em !important;
+}
+  body {
+    font-size: .85em !important;
+  } 
+  .content1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+ transform: translate(-50%, -50%);
+}
+
+}
+
+@media only screen and (min-width: 601px) {
+  .grid {
+  max-width: 450px;
+}
+  
+  .grid-item { width: 150px;
+  height: 150px;
+overflow: hidden; 
+position: relative;
+}
+
+.grid-item--wide { width: 300px;
+  height: 150px;
+margin: 0 auto;
+overflow: hidden; 
+position: relative;
+}
+
+.grid-item--tall {
+  width: 200px;
+  height: 150px;
+  margin: 0 auto;
+overflow: hidden; 
+position: relative;
+}
+
+.grid-item--square {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+overflow: hidden; 
+position: relative;
+}
+  
+  body {
+    font-size: 1em !important;
+  } 
+  .content1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+ transform: translate(-50%, -50%);
+}
+}
+
+@media only screen and (min-width: 900px) {
+  
+  .grid {
+  max-width: 800px;
+}
+  
+.grid-item { width: 200px;
+  height: 200px;
+overflow: hidden; 
+position: relative;
+}
+
+.grid-item--wide { width: 400px;
+  height: 200px;
+margin: 0 auto;
+overflow: hidden; 
+position: relative;
+}
+
+.grid-item--tall {
+  width: 200px;
+  height: 400px;
+  margin: 0 auto;
+overflow: hidden; 
+position: relative;
+}
+
+.grid-item--square {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+overflow: hidden; 
+position: relative;
+}
+  
+  .content1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+ transform: translate(-50%, -50%);
+}
+  } 
+  
+}
+
+
+@media only screen and (min-width: 1350px) {
+  
+  .grid {
+  max-width: 1000px;
+}
+  
+.grid-item { width: 400px;
+  height: 200px;
+overflow: hidden; 
+position: relative;
+}
+
+.grid-item--wide { width: 600px;
+  height: 200px;
+margin: 0 auto;
+overflow: hidden; 
+position: relative;
+}
+
+.grid-item--tall {
+  width: 200px;
+  height: 400px;
+  margin: 0 auto;
+overflow: hidden; 
+position: relative;
+}
+
+.grid-item--square {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+overflow: hidden; 
+position: relative;
+}
+  
+    .title-text {
+font-size: 100px;
+  line-height: 170px;
+
+}
+  
 }
