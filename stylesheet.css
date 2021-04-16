@@ -162,6 +162,11 @@ transform: translateX(-50%);
   animation-play-state: running;
 }
 
+/*HIDE PORTFOLIO*/
+  #portfolio {
+    display: none;
+  }
+
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes moto {
   from {left: 1%;}
