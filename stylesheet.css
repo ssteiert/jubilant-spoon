@@ -162,8 +162,11 @@ transform: translateX(-50%);
   animation-play-state: running;
 }
 
-/*HIDE PORTFOLIO*/
+/*HIDE PORTFOLIO & FOOTER*/
   #portfolio {
+    display: none;
+  }
+#footer {
     display: none;
   }
 
