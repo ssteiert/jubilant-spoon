@@ -6,22 +6,6 @@ body {
   font-family: "Lora" !important;
 }
 
-.spacer {
-  height: 300px;
-}
-
-.spacer-small {
-  height: 150px;
-}
-
-.highlighted {
-  background-color: rgba(205, 106, 147, .25);
-  font-size: 25px;
-}
-
-.highlighted:hover {
-  background-color: rgba(205, 106, 147, .4);
-}
 
 .fa-lg:hover {
   color: rgba(205, 106, 147, .7);
@@ -60,10 +44,12 @@ padding: 10px;
 a {
   color: black !important;
   text-decoration: none;
+  background-color: rgba(205, 106, 147, .25) !important;
 }
 a:hover {
   color: black;
   text-decoration: none !important;
+  background-color: rgba(205, 106, 147, .4) !important;
 }
 
 
