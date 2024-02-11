@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Orelega+One&family=Tangerine:wght@700&display=swap');
 
+@font-face {
+      font-family: "Billie";
+      src: url("BillieHarley.otf");
+    }
+
 body {
   background-color: #b7b3b4 !important;
   padding: 10px;
