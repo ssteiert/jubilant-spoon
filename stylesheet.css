@@ -2,7 +2,7 @@
 
 @font-face {
       font-family: "Billie";
-      src: url("https://ssteiert.github.io/jubilant-spoon/master/BillieHarley.otf");
+      src: url("https://ssteiert.github.io/jubilant-spoon/BillieHarley.otf");
     }
 
 body {
@@ -14,6 +14,10 @@ background: linear-gradient(152deg, rgba(152,166,211,1) 0%, rgba(221,178,172,1) 
 
 .fa-lg:hover {
   color: rgba(205, 106, 147, .7);
+}
+
+.name {
+      font-family: "Billie";
 }
 
 .content {
