@@ -2,7 +2,7 @@
 
 @font-face {
       font-family: "Billie";
-      src: url("https://ssteiert.github.io/jubilant-spoon/BillieHarley.otf");
+      src: url("https://ssteiert.github.io/jubilant-spoon/BillieHarley.otf") format("opentype");
     }
 
 body {
