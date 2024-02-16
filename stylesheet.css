@@ -6,8 +6,8 @@
     }
 
 body {
-  background: rgb(255,255,255);
-background: linear-gradient(159deg, rgba(255,255,255,1) 67%, rgba(244,148,214,1) 100%);
+  background: rgb(152,166,211);
+background: linear-gradient(152deg, rgba(152,166,211,1) 0%, rgba(221,178,172,1) 100%);
   padding: 10px;
   font-family: "Lora" !important;
 }
