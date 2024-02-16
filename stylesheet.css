@@ -12,10 +12,6 @@ background: linear-gradient(152deg, rgba(152,166,211,1) 0%, rgba(221,178,172,1) 
   font-family: "Lora" !important;
 }
 
-.name {
-font-family: "Billie" !important;
-}
-
 .fa-lg:hover {
   color: rgba(205, 106, 147, .7);
 }
