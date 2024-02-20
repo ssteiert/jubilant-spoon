@@ -61,6 +61,11 @@ a:hover {
   background-color: rgba(205, 106, 147, .4) !important;
 }
 
+#bottom_heart {
+      position: absolute;
+bottom: 0;
+right: 0;
+}
 
 /* Design Portfolio */
 .modal-body {
