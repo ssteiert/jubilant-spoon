@@ -50,6 +50,66 @@ padding: 10px;
   box-shadow: 5px 5px 10px gray;
 }
 
+
+.button-color {
+  float: left;
+  min-width: 150px;
+  max-width: 200px;
+  display: block;
+  padding: 0.5em 0.5em;
+  background: none;
+  vertical-align: middle;
+  position: relative;
+  z-index: 1;
+  letter-spacing: 1px;
+  color: #000;
+  font-size: 14px;
+  border: 2px solid;
+   border-radius: 15px;
+  cursor: pointer;
+}
+
+.button-color::after {
+  content: "";
+  background-color: transparent;
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  right: -20px;
+  bottom: -20px;
+  opacity: 0;
+  color: linear-gradient(152deg, rgba(152,166,211,1) 0%, rgba(221,178,172,1) 100%);
+   border-radius: 15px;
+  z-index: -1;
+}
+
+.button-color:hover::after {
+  opacity: 1;
+  background: linear-gradient(152deg, rgba(152,166,211,1) 0%, rgba(221,178,172,1) 100%);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.button-color,
+.button-color:after {
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+.button-color:hover {
+   border-radius: 15px;
+  color: #fff;
+  box-shadow: 5px 5px;
+}
+
+.card-body {
+  background-color: #EBEBEB;
+}
+
 a {
   color: black !important;
   text-decoration: none;
