@@ -121,6 +121,17 @@ a:hover {
   background-color: rgba(205, 106, 147, .4) !important;
 }
 
+.highlight {
+  color: black !important;
+  text-decoration: none;
+  background-color: rgba(205, 106, 147, .25) !important;
+}
+.highlight:hover {
+  color: black;
+  text-decoration: none !important;
+  background-color: rgba(205, 106, 147, .4) !important;
+}
+
 #bottom_heart {
       position: absolute;
 bottom: 0;
