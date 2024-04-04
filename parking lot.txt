@@ -1,0 +1,116 @@
+<a href="https://www.linkedin.com/in/hartstephanie/" target="_blank">Resume</a> &nbsp; | &nbsp; <a href="https://hartlearningexperiencedesign.wordpress.com" target="_blank">Portfolio</a> &nbsp; | &nbsp; <a href="https://stephaniesteiertblog.wordpress.com/" target="_blank">Illustration</a> &nbsp; | &nbsp; <a href="https://codepen.io/ssteiert/" target="_blank">Codepen</a><br>
+
+<br><strong>I am an educator and learning experience designer</strong> who is constantly seeking opportunities to improve communities and processes through training and design. From idea development to assessment, from marketing to training, I love being involved in all aspects of a project and seeing a creative vision come to life. For me there's nothing more motivating that a brand new planner and nothing more satisfying than a finished to-do list. I am inspired to focus on the details of built experiences, knowing that small actions accumulate into entire movements. I thrive when I can channel my creative energy into human centered projects that have a positive impact on society. <br><br>
+
+
+
+
+
+<!--Row-->
+    <div class="row"><br></div>
+    <!--Row-->
+    <div class="row">
+<div class="col-4">
+  
+  <!--Patient Scenario -->
+        <div class="card">
+  <img class="card-img-top" src="https://hartlearningexperiencedesign.files.wordpress.com/2024/02/img_e2195-edited.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Patient Scenario Simulation</h5>
+    <p class="card-text"><em>Simulation Workshop</em></p>
+  
+        <!-- Button trigger modal -->
+<button type="button" class="button-color" data-bs-toggle="modal" data-bs-target="#patient">
+  Learn More
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="patient" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Patient Scenario Simulation</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img class="card-img-top" src="https://hartlearningexperiencedesign.files.wordpress.com/2021/04/img_e2194-1.jpg?w=1024">
+        <strong> Goal:</strong> Enable the application of organization teaming principles through the lens of customer obsession. <br>
+<strong>Audience:</strong> Top 100 leaders at a medical technology company <br>
+        <strong>Method:</strong> Designed to be cascaded to the entire organization, this workshop enabled leaders to apply teaming principles that had just been introduced to the organization. Teams were given a scenario centered around a customer, an ostomate who wanted to run a Tough Mudder race. Teams reviewed simulated materials about the customer’s condition, the race, and recommendations from nurses and doctors to come to a recommendation for the customer together. Leaders not only practiced applying principles, but also deepened their empathy for their customers. <br>
+        <strong>NPS</strong>: +61
+
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <!--Embedding teaming -->
+        <div class="card">
+  <img class="card-img-top" src="https://hartlearningexperiencedesign.files.wordpress.com/2024/02/img_e2195-edited.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Embedding Teaming Principles</h5>
+    <p class="card-text"><em>Simulation Workshop</em></p>
+  
+        <!-- Button trigger modal -->
+<button type="button" class="button-color" data-bs-toggle="modal" data-bs-target="#glm">
+  Learn More
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="glm" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Embedding Teaming as Leaders</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img class="card-img-top" src="https://hartlearningexperiencedesign.files.wordpress.com/2021/04/img_e2194-1.jpg?w=1024">
+        <strong>Goal:</strong> Embed teaming principles into day-to-day work processes and ways of working.<br>
+        <strong>Audience:</strong> Top 100 leaders at a global medical technology companybr>
+        <strong>Method:</strong> A follow-up to the Patient Scenario Simulation, this scenario asks leaders to apply the team principles to situations they may encounter in their daily work. Using organizational teaming tools, teams of leaders were asked to select one of three investment proposals and then roleplay a conversation around holding each other, and each other’s teams accountable for teaming principles.
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <!--Team optimization-->
+        <div class="card">
+  <img class="card-img-top" src="https://hartlearningexperiencedesign.files.wordpress.com/2024/02/img_e2195-edited.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Team Optimization Workshop</h5>
+    <p class="card-text"><em>Workshop</em></p>
+  
+        <!-- Button trigger modal -->
+<button type="button" class="button-color" data-bs-toggle="modal" data-bs-target="#team">
+  Learn More
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="team" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Team Optimization Workshop</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img class="card-img-top" src="https://hartlearningexperiencedesign.files.wordpress.com/2021/04/img_e2194-1.jpg?w=1024">
+        <strong>Goal:</strong> Build trust and establish ways of working for a high-stakes team.<br>
+        <strong>Audience:</strong> Molecular study team partnering across two global pharmaceutical companies<br>
+        <strong>Method:</strong> This workshop was designed to be a fun and engaging way for a new team to meet and establish their ways of working together before the onset of their study. Teams engaged in the Teaming Olympics, a competition that utilized a variety of different skill sets on challenges, including musical skill, engineering skills, project management/prioritization skills, logic skills, perception skills, and more. After a high-intensity high-energy morning competing, participants reflected on scenarios established ways they want to work together moving forward.
+        <strong>NPS:</strong> +57
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+        </div>
+      </div>
+    </div> 
